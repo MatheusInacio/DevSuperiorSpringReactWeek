@@ -1,0 +1,12 @@
+header {
+    background-color: var(--color-primary);
+    height: 60;
+}
+
+.dsmovie-nav-content h1 {
+    font-size: 1.8rem;
+}
+
+.contact p {
+    font-size: 0.8rem;
+}
