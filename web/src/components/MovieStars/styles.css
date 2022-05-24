@@ -1,0 +1,10 @@
+.dsmovie-stars-container {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.dsmovie-stars-container svg {
+    width: 22px;
+    height: auto;
+}
