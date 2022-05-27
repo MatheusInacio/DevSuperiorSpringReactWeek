@@ -5,12 +5,10 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class MovieDTO {
+public class ScoreDTO {
 
-    private Long id;
-    private String title;
+    private Long movieId;
+    private String email;
     private Double score;
-    private Integer count;
-    private String image;
 
 }
