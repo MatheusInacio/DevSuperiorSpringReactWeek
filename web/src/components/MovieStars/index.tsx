@@ -1,13 +1,18 @@
+import { type } from "os";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import StarRatings from 'react-star-ratings';
 
 import './styles.css';
 
-export function MovieStars() {
+type Props = {
+    score: number
+}
+
+export function MovieStars( {score} : Props) {
     return (
         <div className="dsmovie-stars-container mb-2">
             <StarRatings
-                rating={3.5}
+                rating={score}
                 starRatedColor="#FFBB3A"
                 // changeRating={this.changeRating}
                 numberOfStars={5}

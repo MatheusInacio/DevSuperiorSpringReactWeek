@@ -1,0 +1,1 @@
+export const BASE_URL = import.meta.env.REACT_APP_BACKEND ?? "http://localhost:8080"
