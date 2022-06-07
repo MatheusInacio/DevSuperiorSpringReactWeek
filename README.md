@@ -1,7 +1,10 @@
 # DevSuperiorSpringReactWeek
 Projeto da Semana Spring React do DevSuperior
 
+<img src="https://i.imgur.com/hsunSBM.png" />
+
 https://dsmovie-matheusinacio.netlify.app/
+(acesse, espere 30 segundo pra api subir e acesse novamente)
 
 # Passo: Implantação no Heroku
 Criar app no Heroku
